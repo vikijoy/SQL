@@ -13,11 +13,11 @@ CREATE TABLE IF NOT EXISTS telephon (
   
 INSERT telephon(ProductName, Manufacturer, ProductCount, Price) 
 VALUES 
-('iPhone X', 'Apple', 3, 76000),
-('iPhone 8', 'Apple', 2, 51000),
-('Galaxy S9', 'Samsung', 2, 56000),
-('Galaxy S8', 'Samsung', 1, 41000),
-('P20 Pro', 'Huawei', 5, 36000);
+('iPhone 14 Pro', 'Apple', 4, 150000),
+('iPhone SE', 'Apple', 2, 51000),
+('Galaxy S23 ULTRA', 'Samsung', 2, 100000),
+('Galaxy S22+', 'Samsung', 1, 65000),
+('P50 Pro', 'Huawei', 5, 36000);
 
 -- 2. Выведите название, производителя и цену для товаров, количество которых превышает 2 
 SELECT ProductName, Manufacturer, Price
